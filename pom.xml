@@ -70,6 +70,31 @@
             <version>3.5</version>
         </dependency>
 
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+
+        <!-- mybatis pager -->
+
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.miemiedev</groupId>
+            <artifactId>mybatis-paginator</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.jsqlparser</groupId>
+            <artifactId>jsqlparser</artifactId>
+            <version>0.9.4</version>
+        </dependency>
         <!--日期格式化-->
         <dependency>
             <groupId>joda-time</groupId>
@@ -82,6 +107,7 @@
             <artifactId>jedis</artifactId>
             <version>2.6.0</version>
         </dependency>
+
         <!-- ftpclient -->
         <dependency>
             <groupId>commons-net</groupId>
@@ -116,6 +142,13 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+
         <!--添加tomcat依赖模块.-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -166,7 +199,6 @@
             </resource>
         </resources>
     </build>
-
 
 
 </project>
