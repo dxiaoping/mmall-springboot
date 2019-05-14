@@ -33,7 +33,7 @@ HELP.md
 #package file
 *.war
 *.ear
-
+com/mmall/testController
 #kdiff3 ignore
 *.orig
 
